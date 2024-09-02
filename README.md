@@ -21,12 +21,6 @@ https://book.getfoundry.sh/
 $ forge build
 ```
 
-### Test
-
-```shell
-$ forge test
-```
-
 ### Format
 
 ```shell
@@ -51,6 +45,12 @@ $ anvil
 $ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
 ```
 
+## Test
+```shell
+$ forge test --match-path test/<contract file>
+
+```
+
 ### Cast
 
 ```shell
@@ -64,5 +64,8 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+
+
 
 ## add comment
